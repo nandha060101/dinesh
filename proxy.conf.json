@@ -1,0 +1,36 @@
+{
+  "/neosuite/*": {
+    "target": "https://nwsuat.neeyamo.works",
+    "secure": false,
+    "changeOrigin": true,
+    "logLevel": "debug"
+  },
+
+  "/listViewApi/*": {
+    "target": "https://listviewcomponentuat.neeyamo.works",
+    "secure": false,
+    "changeOrigin": true,
+    "logLevel": "debug"
+  },
+  "/listViewBasicApi/*": {
+    "target": "https://listviewcomponentuat.neeyamo.works",
+    "secure": false,
+    "changeOrigin": true,
+    "logLevel": "debug"
+  },
+  
+"/approvalflow/*": {
+  "target": "http://localhost:8084",
+  "secure": true,
+  "logLevel": "debug"
+},
+
+
+"/approval-flow/approvalFlow/*": {
+  "target": "http://localhost:4600",
+  "pathRewrite": {
+      "^/approvalFlow": ""
+  }
+}
+}
+
